@@ -6,17 +6,13 @@ public class Add {
     private int b;
     
     public void setValue(int a, int b) {
-    	
-    	
-    	
+    	this.a = a;
+    	this.b = b;
+    	//System.out.println("a = " +a+ ", b = " +b);
     }
-
     public int calculate() {
     	
-    	int result = 0;
-    	
-    	
-    	return result;
+    	return a+b;
     }
 
 }
